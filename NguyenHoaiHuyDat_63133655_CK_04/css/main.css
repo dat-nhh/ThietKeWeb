@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fcf4de;
+}
+
+nav{
+    background-color: #fcf4de;
+}
+
+.nav-link:hover{
+    background-color: #ffc000;
+    color: #553bb7;
+}
+
+.login{
+    background-color: #ffc000;
+}
+
+footer{
+    background-color: #ffc000;
+    color: white;
+}

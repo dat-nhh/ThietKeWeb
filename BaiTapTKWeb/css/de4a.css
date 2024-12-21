@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+body{
+    margin: 2% 5%;
+    background-color: #e8dfd8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    float: left;
+    height: 35vh;
+}
+
+header nav{
+    float: left;
+    width: 35%;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bold;
+}  
+
+header nav li a:hover {
+    background-color: #8181ff;
+    color: #e8dfd8;
+    border-radius: 10px;
+    margin: 0px 100px;
+}
+
+header section{
+    float: left;
+    width: 65%;
+    padding: 2%;
+    border: solid 1px;
+}
+
+header section img{
+    float: left;
+    width: 18%;
+}
+
+header section div{
+    float: left;
+    width: 82%;
+}
+
+header section div h1{
+    font-size: 4.5rem;
+    text-align: center;
+    font-weight: 500;
+    margin-top: -3%;
+}
+
+header section div p{
+    font-size: 16pt;
+    padding-left: 2%;
+}
+
+main{
+    width: 100%;
+    float: left;
+    height: 60vh;
+}
+
+main form{
+    float: left;
+    width: 35%;
+    height: 100%;
+    font-size: 1.5rem;
+    padding-right: 1%;
+}
+
+fieldset{
+    text-align: center;
+    border: solid 2px #c19370;
+    border-radius: 10px;
+}
+
+fieldset legend{
+    text-align: center;
+}
+
+fieldset *{
+    margin: 5% 1%;
+}
+
+.in{
+    height: 35px;
+    border-radius: 10px;
+}
+
+.out{
+    width: 30%;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #e8dfd8;
+    background-color: #8181ff;
+    font-size: 1.1rem;
+}
+
+main section{
+    float: left;
+    width: 65%;
+    height: 100%;
+    font-size: 1.1rem;
+    color: #9a806c;
+}
+
+main section img{
+    width: 30%;
+}
+
+main section h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+main section div{
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+main section div img{
+    width: 30%;
+    height: 20%;
+}
+
+main section ul{
+    margin-top: 5%;
+    padding-left: 5%;
+}
+
+#worked{
+    margin-top: 15%;
+}

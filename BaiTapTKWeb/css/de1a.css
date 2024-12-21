@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+body{
+    background-image: url(../images/bg3.png);
+}
+
+#container{
+    width: 80%;
+    margin: 10px auto;
+    border: 4pt groove green;
+}
+
+header{
+    background-image: url(../images/bg2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 180px;
+    height: 180px;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    padding: 50px 0px;
+}
+
+label i{
+    color: blue;
+}
+
+#login{
+    float: right;
+    margin-right: 10px;
+}
+
+#login *{
+    display: inline;
+}
+
+#login input[type="text"], #login input[type="password"]{
+    width: 100px;
+}
+
+#content{
+    height: 500px;
+}
+
+nav{
+    float: left;
+    width: 15%;
+    background-color: yellow;
+    color: blue;
+    height: 500px;
+}
+
+main{
+    float: left;
+    width: 65%;
+    background-color: white;
+    height: 500px;
+}
+
+.product{
+    width: 30%;
+    height: 210px;
+    float: left;
+}
+
+.mid{
+    margin: 0 5%;
+}
+
+.product p{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.product input{
+    color: red;
+    margin: 0px 35%;
+    padding: 0px 10px;
+}
+
+aside{
+    float: left;
+    width: 20%;
+    background-color: lightgray;
+    height: 500px;
+}
+
+form{
+    padding: 5%;
+}
+
+legend{
+    text-align: center;
+    color: red;
+}
+
+fieldset{
+    text-align: center;
+    height: 180px;
+}
+
+fieldset img{
+    padding: 10px 0px;
+}
+
+fieldset input{
+    padding: 1% 5%;
+}
+
+footer{
+    background-image: url(../images/bg1.jpg);
+    height: 100px;
+    text-align: center;
+    color: aqua;
+    padding-top: 45px;
+}
+
+ul{
+    list-style: none;
+}
+
+li a{
+    display: block;
+    color: blue;
+    padding: 20px 10px;
+    text-decoration: none;
+    border-bottom: 2px solid blue;
+}  
+
+li a.active {
+    background-color: red;
+    color: yellow;
+}
+
+li a:hover:not(.active) {
+    background-color: red;
+    color: yellow;
+}
